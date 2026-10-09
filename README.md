@@ -1,30 +1,17 @@
-# Oceanyan Limited — GitHub Pages website
+# Oceanyan Limited 官网更新包（2026-10-09）
 
-## Deploy (no command line needed)
+## 本次更新
+- 游戏图标：`assets/game-icon.png`（512×512，已去除截图编辑界面）
+- 官网联系邮箱：`info@woofungames.com`，支持点击发邮件
+- 游戏商店按钮：RuStore 正式链接
+- 游戏展示名称与 RuStore 一致：Gossip Harbor: Merge & Story（原项目代号 Merge Cafe Story）
+- `app-ads.txt`：使用用户提供的原始文件
 
-1. Create a **public** GitHub repository named `<your-username>.github.io` (replace with your actual username).
-2. Open the repository, choose **Add file → Upload files**, and upload **the contents of this folder**, not the ZIP itself or the outer folder. Make sure `index.html` is at the repository root. Commit the files.
-3. Go to **Settings → Pages → Build and deployment**. Select **Deploy from a branch**, `main`, `/(root)`, then **Save**.
-4. Wait for publishing, then visit `https://<your-username>.github.io/`.
+## GitHub 网页操作
+1. 打开 `https://github.com/woofungames/woofungames.github.io`。
+2. 上传并覆盖根目录 `index.html`、`app-ads.txt`，以及 `assets/game-icon.png`。其他文件无需改动。
+3. 也可以将此 ZIP 解压后上传所有文件（上传解压后的内容，而不是 ZIP）。
+4. 点击 `Commit changes`（提交更改），等待 GitHub Pages 自动发布。
+5. 检查 `https://woofungames.github.io/` 与 `https://woofungames.github.io/app-ads.txt`。
 
-## Before publishing as an official company site
-
-- Replace the placeholder contact details with a verified business email.
-- Confirm the legal company name, game ownership and relationship to Woofun Games.
-- Add real game artwork and a verified RuStore listing URL.
-- **Review and complete `privacy.html` and `terms.html`**. They contain explicitly marked drafts, not final legal policies.
-- Populate `app-ads.txt` only with the exact lines provided by VK or other authorized ad partners. It is intentionally blank; do not invent publisher IDs.
-- Check how RuStore exposes the developer website and how VK discovers `app-ads.txt`. GitHub Pages and a Finance 'Site' URL do not guarantee ad authorization approval.
-
-## File structure
-
-- `index.html`: home page
-- `privacy.html`: privacy draft
-- `terms.html`: terms draft
-- `assets/style.css`: responsive styling
-- `app-ads.txt`: intentionally empty ad authorization file
-- `.nojekyll`: static hosting compatibility
-
-## Local preview
-
-Open `index.html` in a browser. No build tools or dependencies are needed (Google Fonts is optional and loaded from a CDN).
+注意：`privacy.html` 与 `terms.html` 仍为草稿，须核实后用于正式合规披露。RuStore 页面名称为 Gossip Harbor: Merge & Story。
